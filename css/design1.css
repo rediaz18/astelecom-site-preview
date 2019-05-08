@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'PT Sans', sans-serif;
+	height: 100%;
+	width: 100%;
+}
+html{
+	height: 100%;
+	width: 100%;
+}
+h2{
+	color: #0f7dbd;
+}
+h3{
+	color:#03314c;
+}
+a{
+	transition: 0.3s;
+}
+.principal {
+	background-color:transparent;
+    border-color:transparent;
+    background-image:none;
+    box-shadow:none;
+	background: transparent;
+
+}
+.header-1{
+	transition: all 0.4s;
+}
+.header-1 img{
+	transition: all 0.4s;
+}
+
+
+.header-alt{
+	font-size: 12px;
+	background: rgb(11,5,106);
+	background: linear-gradient(196deg, rgba(11,5,106,1) 0%, rgba(15,115,182,0.9415966215587798) 56%, rgba(15,125,189,0.944397742006959) 100%); }
+.header-alt img
+{
+	width: 80px;
+	transition: all 0.4s;
+}
+
+.portada {
+	background-image: url(../image/antena-trans.jpg);
+	position:relative;
+	background-size: cover;
+	opacity: 0.90;
+	background-position: center;
+	background-repeat: no-repeat;	
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+#intro {
+	width: 25em;
+	background-color: #C4C4C4;
+	opacity: 0.65;
+	text-align: center;
+}
+
+.clientes {
+	max-height: 100px;
+}
+
+.eslogan{
+	color: white;
+	text-shadow: 2px 2px 8px rgb(224, 224, 224);
+}
+
+/*REDUCE EL TAMAÑO DEL TEXTO DE LA PORTADA PARA PANTALLAS PEQUEÑAS*/
+@media (max-width: 576px) {
+    .eslogan{font-size: 44px;}
+}
+.obscuro {
+	background-color: #f2f5fa;
+}
+
+.contraste{
+	/*background: rgb(8, 214, 187); /* Fallback */
+	/*background: rgba(0, 141, 122, 0.459);*/
+	background: rgb(11,5,106);
+	background: linear-gradient(196deg, rgba(11,5,106,1) 0%, rgba(15,115,182,0.7847338764607406) 56%, rgba(15,125,189,0.6558823358444941) 100%); 
+}
+
+.unique-color-dark {
+	background-color:#202020;
+}
+
+.copyright {
+	color: #999;
+	margin-top: 1.5em;
+	font-size: 0.9em;
+}
+
+
+.links {
+	color: #CACACA;
+}
+
+.footerWhite{
+	color: #afafaf;
+}
+.fondo-nosotros{
+	background-image: url(../image/lines2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 60vh;
+	position: relative;
+}
+.transparente{
+	position: absolute;
+	color: whitesmoke;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+	background: rgb(11,5,106);
+	background: linear-gradient(196deg, rgba(11,5,106,1) 0%, rgba(15,115,182,0.7847338764607406) 56%, rgba(15,125,189,0.6558823358444941) 100%); 
+	/*background: rgb(114, 164, 204);  Fallback
+	background: rgba(110, 214, 200, 0.5);*/
+}
+
+.margenabajo{
+	margin-bottom: 5rem;
+}
+
+.fondo-inge{
+	background-image: url(../image/computer-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	position: relative;
+	transition: all 0.3s;
+}
+
+.fondo-inge:hover{
+	opacity: 0.9;
+}
+.fondo-proyec{
+	background-image: url(../image/aerial-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	min-height: 300px;
+	transition: all 0.3s;
+}
+.fondo-proyec:hover{
+	opacity: 0.9;
+}
+
+.fondo-const{
+	background-image: url(../image/industry-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	min-height: 300px;
+	transition: all 0.3s;
+}
+.fondo-const:hover{
+	opacity: 0.9;
+}
+
+a:hover{
+	color:  rgba(110, 214, 200, 1);
+}
+
+.portada-servicios{
+	background-image: url(../image/lines.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	background-attachment: fixed;
+	width: 100%;
+	height: 60vh;
+}
+.fondo-CInicio{
+	background-image: url(../image/astelecom-pitch.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	color:whitesmoke;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
