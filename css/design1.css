@@ -18,6 +18,9 @@ h3{
 a{
 	transition: 0.3s;
 }
+p{
+	font-size: 2.5vh;
+}
 .principal {
 	background-color:transparent;
     border-color:transparent;
@@ -28,6 +31,8 @@ a{
 }
 .header-1{
 	transition: all 0.4s;
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0.1292892156862745) 0%, rgba(0,0,0,0.2413340336134454) 100%);
 }
 .header-1 img{
 	transition: all 0.4s;
@@ -35,12 +40,12 @@ a{
 
 
 .header-alt{
-	font-size: 12px;
+	font-size: 14px;
 	background: rgb(11,5,106);
 	background: linear-gradient(196deg, rgba(11,5,106,1) 0%, rgba(15,115,182,0.9415966215587798) 56%, rgba(15,125,189,0.944397742006959) 100%); }
 .header-alt img
 {
-	width: 80px;
+	width: 100px;
 	transition: all 0.4s;
 }
 
@@ -198,3 +203,12 @@ a:hover{
     height: 100%;
     vertical-align: middle;
 }
+
+.dsply1{
+	
+}
+@media (max-width: 576px) {
+    .dsply1{font-size: 44px;}
+}
+
+
